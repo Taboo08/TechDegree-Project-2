@@ -10,22 +10,24 @@
   </head>
   <body>
     <header>
-      <div class="logo-nav-flex">
-        <h1 class="logo"><a href="index.html">Alexandru Noti</a></h1>
-        <nav>
-          <a href="#">Home</a>
-          <a href="#">Portfolio</a>
-          <a href="#">Contact</a>
-        </nav>
-      </div>
-      <div class="student-profile">
-      <img src="images/responsive-layout-profile.png" alt="Student Profile Photo" style='height: 100%; width: 80%; object-fit: contain' class="profile-img" />
-      <p class="profile-txt">Hi! I'm a front-end developer who loves responsive design and css. I recently finished a degree in front-end web development at Treehouse
-        and am excited to put all my skills to use!</p>
+      <div class="header-container" id="top">
+        <div class="logo-nav-flex">
+          <h1 class="logo"><a href="index.html">Alexandru Noti</a></h1>
+          <nav>
+            <a href="index.html">Home</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#contact">Contact</a>
+          </nav>
+        </div>
+        <div class="student-profile">
+        <img src="images/responsive-layout-profile.png" alt="Student Profile Photo" style='height: 100%; width: 80%; object-fit: contain' class="profile-img" />
+        <p class="profile-txt">Hi! I'm a front-end developer who loves responsive design and css. I recently finished a degree in front-end web development at Treehouse
+          and am excited to put all my skills to use!</p>
+        </div>
       </div>
     </header>
     <main>
-      <h2>Portfolio</h2>
+      <h2 class="portfolio-title" id="portfolio">Portfolio</h2>
       <section>
         <img src="images/portfolio-1.png" alt="Portfolio - Marketing Page" style='height: 100%; width: 100%; object-fit: contain'/>
         <h3>Marketing Page</h3>
@@ -58,13 +60,17 @@
       </section>
     </main>
     <footer>
-      <h2>Contact</h2>
-      <p>If you're interested in chating or want more information about what I've been working on, I'd love to hear from you!</p>
-      <p>Phone: +1 (111) 555-1234</p>
-      <p>Email: email@yoursite.com</p>
-      <hr>
-      <h3>Alexandru Noti</h3>
-      <h3><a href="#">Back to top</a></h3>
+      <h2 class="contact-title" id="contact">Contact</h2>
+      <p class="contact-text">If you're interested in chating or want more information about what I've been working on, I'd love to hear from you!</p>
+      <div class="contact-info">
+        <p>Phone: <strong>+1 (111) 555-1234</strong></p>
+        <p>Email: <strong>email@yoursite.com</strong></p>
+      </div>
+      <hr class="style-one">
+      <div class="backtotop">
+        <h3>Alexandru Noti</h3>
+        <h3 class="linktop"><a href="#top">Back to top</a></h3>
+      </div>
     </footer>
   </body>
 </html>

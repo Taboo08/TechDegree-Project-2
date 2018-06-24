@@ -20,15 +20,30 @@ a {
 
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Roboto', sans-serif;
+  color: #4a4645;
+}
+
+p {
+  font-family: 'Poppins', sans-serif;
+  color: #4a4645;
 }
 
 /* ----------- MEDIA QUERIES STYLES --------------*/
 
 @media (min-width: 320px) {
   body {
-    width: 90%;
+    width: 100%;
     text-align: center;
-    background-color: #f7fff7;
+    background-color: #fff;
+    margin: 0 auto;
+  }
+
+  header {
+    background-color: #fff4ec;
+  }
+
+  .header-container {
+    width: 90%;
     margin: 0 auto;
   }
 
@@ -95,12 +110,89 @@ h1, h2, h3, h4, h5, h6 {
   }
 
   .profile-img {
-    padding-bottom: 20px;
+    padding-top: 40px;
+    padding-bottom: 40px;
   }
 
-  .space-around {
-    padding-top: 10px;
+  .profile-txt {
+    padding-bottom: 40px;
+  }
+
+  h2 {
+    text-transform: uppercase;
+  }
+
+  .portfolio-title {
+    padding-bottom: 80px;
+    padding-top: 40px;
+  }
+
+  main {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  h3 {
+    padding: 20px 0;
+  }
+
+  main p {
+    padding-bottom: 40px;
+  }
+
+  footer {
+    background-color: #fff4ec;
+  }
+
+  .contact-title {
+    padding-top: 60px;
+    padding-bottom: 40px;
+  }
+
+  .contact-text {
+    padding-bottom: 30px;
+  }
+
+  .contact-info {
+    padding-bottom: 60px;
+    color: #746d75;
+  }
+
+  .contact-info p {
     padding-bottom: 10px;
+  }
+
+  .style-one {
+    border: 0;
+    height: 1px;
+    background: #ccc;
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .backtotop {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.8em;
+  }
+
+  .linktop {
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+
+  .linktop a:link {
+    color: #0a100d;
+  }
+
+  .linktop a:visited {
+    color: #0a100d;
+  }
+
+  .linktop a:hover {
+    color: #e01a4f;
   }
 
 }
