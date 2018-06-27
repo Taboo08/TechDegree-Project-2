@@ -28,6 +28,10 @@ p {
   color: #4a4645;
 }
 
+.profile-txt {
+  color: #0b6e4f;
+}
+
 /* ----------- MEDIA QUERIES STYLES 320px --------------*/
 
 @media (min-width: 320px) {
@@ -311,6 +315,43 @@ p {
 
   .bottom-nav a:hover {
     color: #e01a4f;
+  }
+
+}
+
+
+/* ----------- MEDIA QUERIES STYLES 1024px --------------*/
+
+@media (min-width: 1024px) {
+  .logo-nav-flex {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+
+}
+  .logo {
+    padding-top: 5px;
+  }
+
+  .student-profile {
+    align-items: flex-start;
+    padding-top: 20px;
+
+  }
+
+  .profile-img {
+    margin: 0;
+    padding: 0;
+    max-width: 365px;
+  }
+
+  .profile-txt {
+    flex-grow: 2;
+    padding-right: 40px;
+  }
+
+  section {
+    flex-basis: 300px;
   }
 
 }
