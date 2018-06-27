@@ -6,14 +6,6 @@
   padding: 0;
 }
 
-body {
-    width: 90%;
-    margin: 0 auto;
-    font-size: 16px;
-    font-family: 'Poppins', sans-serif;
-    background-color: #f7fff7;
-}
-
 a {
   text-decoration: none;
 }
@@ -32,13 +24,15 @@ p {
   color: #0b6e4f;
 }
 
-/* ----------- MEDIA QUERIES STYLES 320px --------------*/
 
-@media (min-width: 320px) {
   body {
     width: 100%;
     text-align: center;
-    background-color: #fff;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    background-color: #f7fff7;
+    min-width: 320px;
+    max-width: 1024px;
     margin: 0 auto;
   }
 
@@ -204,9 +198,6 @@ p {
   .bottom-nav {
     display: none;
   }
-
-}
-
 
 /* ----------- MEDIA QUERIES STYLES 768px --------------*/
 
